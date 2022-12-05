@@ -47,12 +47,10 @@ header {
 }
 
 #img-container{
-    width: 100%;
     max-width: 500px;
 }
 
 img {
-    width: 100%;
     max-width: 500px;
 
     border-radius: 40px;
@@ -60,7 +58,7 @@ img {
 
 #text-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 850px;
 }
 
 footer {
