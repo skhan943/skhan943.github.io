@@ -37,6 +37,7 @@ header {
 
     padding: 30px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -55,6 +56,11 @@ img {
     max-width: 500px;
 
     border-radius: 40px;
+}
+
+#text-container {
+    width: 100%;
+    max-width: 900px;
 }
 
 footer {
