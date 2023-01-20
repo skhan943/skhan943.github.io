@@ -2,28 +2,31 @@ body {
     height: 90vh;
     display: grid;
     grid-template-rows: 60px 1fr 20px;
-    background-color: #FFFFFF;
+
+    background-color: #343A40;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: white;
 }
 
-a{
+header a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+header a:hover{
+    color: darkgray;
 }
 
 header {
     grid-row: 1/2;
+
     display: flex;
     justify-content: space-between;
     padding: 50px;
     align-items: center;
+
     text-align: center;
     font-size: 40px;
-}
-
-header a:hover {
-    color: darkgray;
 }
 
 #links-container{
@@ -35,34 +38,37 @@ header a:hover {
 
 #main-container{
     grid-row: 2/3;
-    padding: 5vh;
+
+    padding: 30px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 2vh;
+
+    font-size: 30px;
+
+    column-gap: 40px;
 }
 
 #img-container{
-    max-width: 25vw;
-    max-height: 25vw;
+    max-width: 500px;
 }
 
 img {
-    max-width: 25vw;
-    max-height: 25vw;
-    border-radius: 10%;
+    max-width: 500px;
+
+    border-radius: 40px;
 }
 
 #text-container {
     width: 100%;
     max-width: 850px;
-    padding-left: 2vw;
-    font-size: 1.5vw;
+    padding-left: 50px;
 }
 
 footer {
     grid-row: 3/4;
+
     display:flex;
     justify-content: center;
     align-items: center;
