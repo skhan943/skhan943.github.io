@@ -45,7 +45,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
 
-    column-gap: 2%;
+    column-gap: 2vh;
 }
 
 #img-container{
@@ -61,7 +61,7 @@ img {
     width: 100%;
     max-width: 850px;
     padding-left: 50px;
-    font-size: 26px;
+    font-size: 1.5vw;
 }
 
 footer {
