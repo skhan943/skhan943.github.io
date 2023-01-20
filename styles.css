@@ -39,7 +39,6 @@ header a:hover {
 #main-container{
     grid-row: 2/3;
 
-    padding: 30px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,8 +59,8 @@ img {
 #text-container {
     width: 100%;
     max-width: 850px;
-    padding-left: 50px;
-    font-size: 1.5vw;
+    padding-left: 5vh;
+    font-size: 3.5vh;
 }
 
 footer {
