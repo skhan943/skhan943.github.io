@@ -8,9 +8,12 @@ body {
     color: white;
 }
 
-a{
+header a{
     text-decoration: none;
     color: white;
+}
+header a:hover{
+    color: darkgray;
 }
 
 header {
