@@ -41,17 +41,17 @@ header {
     justify-content: center;
     align-items: center;
 
-    font-size: 32px;
+    font-size: 25px;
 
     column-gap: 40px;
 }
 
 #img-container{
-    max-width: 500px;
+    max-width: 400px;
 }
 
 img {
-    max-width: 500px;
+    max-width: 400px;
 
     border-radius: 40px;
 }
