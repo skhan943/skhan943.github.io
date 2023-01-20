@@ -2,7 +2,6 @@ body {
     height: 90vh;
     display: grid;
     grid-template-rows: 60px 1fr 20px;
-
     background-color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
     color: black;
@@ -15,12 +14,10 @@ a{
 
 header {
     grid-row: 1/2;
-
     display: flex;
     justify-content: space-between;
     padding: 50px;
     align-items: center;
-
     text-align: center;
     font-size: 40px;
 }
@@ -38,12 +35,10 @@ header a:hover {
 
 #main-container{
     grid-row: 2/3;
-
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
     column-gap: 2vh;
 }
 
@@ -65,7 +60,6 @@ img {
 
 footer {
     grid-row: 3/4;
-
     display:flex;
     justify-content: center;
     align-items: center;
